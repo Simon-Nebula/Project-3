@@ -26,6 +26,7 @@
 }
 h2 { 
     font-family: 'Lato', sans-serif;
+    border-bottom: 5px solid #B06865;
 }
 .newslinks {
     display: flex;
@@ -46,4 +47,34 @@ align-items: center;
 .streaming {
     text-align:center;
 }
+
+.row {
+    text-align: center;
+    display:flex;
+}
+.vertical li a {
+    color:#B06865;
+    text-align:left;
+  }
+
+.align-spaced {
+
+   background-color:black;
+    text-decoration:none; 
+   font-family: 'Lato', sans-serif;
+  }
+  .foot { 
+      background-color:#B06865;
+      font-family: 'Lato', sans-serif;
+      font-style: italic;
+      
+
+  }
+  
+
+
+@media only screen and (max-width: 600px) { 
+
+}
+
 
