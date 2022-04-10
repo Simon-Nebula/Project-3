@@ -1,35 +1,49 @@
-.align-left {
-    background-color: #B06865;
-    text-decoration:none; 
-    color: black !important;
-    font-family: 'Lato', sans-serif;
 
+
+
+p { 
+    font-size:22px;
+}
+.navbar{ 
+    font-size: 10px;
+    background-color:#B06865;
+}
+ 
+.fi-list { 
+    color: black;
+    font-family: 'Lato', sans-serif;
 }
 
-.menu li a{
+.menu li a {
     color: black;
     font-style: bold;
 }
+
 .header {
     background-color: black;
     color: #B06865;
     text-align: center;
-   
+
 }
+
 .serif {
     font-family: 'Noto Serif', serif;
     font-size: 40px
-    
 }
+
 .italic {
-    font-style: italic ;
+    font-style: italic;
 }
-h2 { 
+
+h2 {
     font-family: 'Lato', sans-serif;
     border-bottom: 5px solid #B06865;
 }
-.newslinks {
-    display: flex;
+
+.news {
+    align-items: center;
+}
+  
 
 }
 
@@ -37,44 +51,27 @@ h4 {
     text-align: center;
     font-style: italic;
 }
-ul {
-list-style-type:none;
-display: flex;
-align-items: center;
-  
-    
-}
-.streaming {
-    text-align:center;
+
+.foot {
+    background-color: #B06865;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
 }
 
-.row {
-    text-align: center;
-    display:flex;
-}
-.vertical li a {
-    color:#B06865;
-    text-align:left;
-  }
-
-.align-spaced {
-
-   background-color:black;
-    text-decoration:none; 
-   font-family: 'Lato', sans-serif;
-  }
-  .foot { 
-      background-color:#B06865;
-      font-family: 'Lato', sans-serif;
-      font-style: italic;
-      
-
-  }
-  
 
 
-@media only screen and (max-width: 600px) { 
-
-}
+ @media only screen and (max-width: 600px) {
+       .alla {
+     
+           font-size:9px;
+       }
+       .allb {
+           font-size:9px;
+       }
+       .music1 {
+           display:block;
+       }
+    }
+       
 
 

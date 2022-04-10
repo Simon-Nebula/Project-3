@@ -20,14 +20,28 @@
 </head>
 
 <body>
-  <ul class="menu align-left">
-    <li><a href="index.html">HOME</a></li>
-    <li><a href="About.html">ABOUT</a></li>
-    <li><a href="Videos.html">MUSIC</a></li>
-    <li><a href="Discography.html">DISCOGRAPHY</a></li>
-    <li><a href="tour.html">TOURS</a></li>
-  </ul>
 
+  <div class="navbar">
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+
+    <div class="top-bar" id="responsive-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+
+          <li class="has-submenu">
+            <a href="./index.html">HOME</a>
+          <li><a href="./About.html">ABOUT</a></li>
+          <li><a href="./Videos.html">VIDEOS</a></li>
+          <li><a href="./Discography.html">DISCOGRAPHY</a></li>
+          <li><a href="./tour.html">TOURS</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
   <div class="header">
 
     <h1 class="serif"> THE MECHANISMS</h1>
@@ -36,79 +50,97 @@
   </div>
 
   <h2> NEWS </h2>
-
-
-
-
-  <div class="row align-center">
-    <div class="column small-4">
-      <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">The Mechanisms are dead, long live The Mechanisms! Curious about our solo projects? <a
-            href="https://twitter.com/hashtag/TheMechanisms?src=hash&amp;ref_src=twsrc%5Etfw">#TheMechanisms</a> <a
-            href="https://twitter.com/hashtag/DeathToTheMechanisms?src=hash&amp;ref_src=twsrc%5Etfw">#DeathToTheMechanisms</a>
-        </p>&mdash; The Mechanisms (@TheMechanisms) <a
-          href="https://twitter.com/TheMechanisms/status/1220745594345525249?ref_src=twsrc%5Etfw">January 24, 2020</a>
-      </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div class="news">
+    <div class="grid-x">
+      <div class="cell">
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">The Mechanisms are dead, long live The Mechanisms! Curious about our solo projects? <a
+              href="https://twitter.com/hashtag/TheMechanisms?src=hash&amp;ref_src=twsrc%5Etfw">#TheMechanisms</a> <a
+              href="https://twitter.com/hashtag/DeathToTheMechanisms?src=hash&amp;ref_src=twsrc%5Etfw">#DeathToTheMechanisms</a>
+          </p>&mdash; The Mechanisms (@TheMechanisms) <a
+            href="https://twitter.com/TheMechanisms/status/1220745594345525249?ref_src=twsrc%5Etfw">January 24, 2020</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
     </div>
-    <div class="column small-4">
-      <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Stowaways - we&#39;ve had a few messages asking about restocking CDs on our Bandcamp
-          store - so rather than reply to all your questions individually, here&#39;s a post for anyone who wants to
-          know!</p>&mdash; The Mechanisms (@TheMechanisms) <a
-          href="https://twitter.com/TheMechanisms/status/1386016055684907016?ref_src=twsrc%5Etfw">April 24, 2021</a>
-      </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+  </div>
+  </div>
   </div>
 
   <h2> STREAMING </h2>
 
   <h4> The Mechanisms may be dead, but their music lives on. <br> You can find their music here: </h4>
-
-  <div class="row align-center">
-    <div class="column small-4"><img src="./images/SoundCloud-Logo.jpeg" alt="soundloud" width="200">
-      <p> Soundcloud</p>
+  <div class="alla">
+    <div class="logos">
+      <div class="grid-x">
+        <div class="grid-x">
+          <div class="cell small-2"><img src="./images/SoundCloud-Logo.jpeg" alt="soundloud" width=""></div>
+          <div class="cell small-2"><img src="./images/SpotifyLogo.svg.png" alt="spotify" width="150"></div>
+          <div class="cell small-2"><img src="./images/YoutubeLogo.png" alt="youtube" width=""></div>
+          <div class="cell small-2"><img src="./images/BandCampLogo.png" alt="bandcamp" width=""></div>
+        </div>
+      </div>
     </div>
-    <div class="column small-4"><img src="./images/SpotifyLogo.svg.png" alt="spotify" width="120">
-      <p> Spotify</p>
+    <div class="namesa">
+      <div class="grid-x">
+        <div class="cell small-2">
+          <p>Soundcloud</p>
+        </div>
+        <div class="cell small-2">
+          <p>Spotify </p>
+        </div>
+        <div class="cell small-2">
+          <p>Youtube</p>
+        </div>
+        <div class="cell small-2">
+          <p>Bandcamp</p>
+        </div>
+      </div>
     </div>
-    <div class="column small-4"><img src="./images/YoutubeLogo.png" alt="youtube" width="200">
-      <p> Youtube</p>
-    </div>
-    <div class="column small-4"><img src="./images/BandCampLogo.png" alt="bandcamp" width="200">
-      <p> Bandcamp</p>
-    </div>
-  </div>
+ </div>
 
 
   <h2> MEDIAS </h2>
 
   <h4> Click the icon to explore the cosmos: </h4>
 
-  <div class="row align-center">
-    <div class="column small-4"><a href="https://www.facebook.com/TheMechanisms/" target="blank_"><img
-          src="./images/FacebookLogo.png" alt="facebook" width="150">
-        <p> The Mechanisms </p>
-      </a></div>
-    <div class="column small-4"><a href="https://the-mechanisms.tumblr.com/" target="blank_"> <img
-          src="images/TumblrLogo.jpeg" alt="tumblr" width="150">
-        <p> the-mechanisms </p>
-      </a></div>
-    <div class="column small-4"><a href="https://twitter.com/TheMechanisms" target="blank_"> <img
-          src="./images/TwitterLogo.png" alt="twitter" width="194">
-        <p> themechanisms </p>
-      </a></div>
-    <div class="column small-4"><a href="https://www.youtube.com/c/TheVoidSings/videos" target="blank_"> <img
-          src="./images/YoutubeLogo.png" alt="youtube" width="264">
+
+  <div class="allb">
+    <div class="logos2">
+      <div class="grid-x">
+        <div class="cell small-2"><a href="https://www.facebook.com/TheMechanisms/" target="blank_"><img
+              src="./images/FacebookLogo.png" alt="facebook" width=""></a> </div>
+        <div class="cell small-2"><a href="https://the-mechanisms.tumblr.com/" target="blank_"><img
+              src="images/TumblrLogo.jpeg" alt="tumblr" width=""></a></div>
+        <div class="cell small-2"><a href="https://twitter.com/TheMechanisms" target="blank_"><img
+              src="./images/TwitterLogo.png" alt="twitter" width=""></a></div>
+        <div class="cell small-2"><a href="https://www.youtube.com/c/TheVoidSings/videos" target="blank_"><img
+              src="./images/YoutubeLogo.png" alt="youtube" width=""></a></div>
+      </div>
+    </div>
+  
+
+  <div class="namesb">
+    <div class="grid-x">
+      <div class="cell small-2">
+        <p>The Mechanisms</p>
+      </div>
+      <div class="cell small-2">
+        <p>the-mechanisms </p>
+      </div>
+      <div class="cell small-2">
+        <p>themechanisms</p>
+      </div>
+      <div class="cell small-2">
         <p>TheVoidSings</p>
-      </a> </div>
+      </div>
+    </div>
   </div>
+</div>
 
-
-  <div class="row align-spaced">
-    <div class="column small-4"><img src="./images/MechanismLogo.png" alt="mainlogo" width="200"> </div>
-    <div class="column small-4">
+  <div class="grid-x">
+    <div class="cell small-6"><img src="./images/MechanismLogo.png" alt="mainlogo" width="200"></div>
+    <div class="cell small-6">
       <ul class="vertical menu">
         <li><a href="index.html">HOME</a></li>
         <li><a href="About.html">ABOUT</a></li>
@@ -118,15 +150,15 @@
       </ul>
     </div>
   </div>
-
-  <div class="foot">
-    <footer> @Mechanisms2020</footer>
   </div>
 
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
+  <div class="foot">
+    <footer> @Mechanisms2020 </footer>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
     crossorigin="anonymous"></script>
 
 
