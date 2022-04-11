@@ -43,7 +43,10 @@ h2 {
 .news {
     align-items: center;
 }
-  
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
 
 }
 
@@ -61,7 +64,7 @@ h4 {
 
 
  @media only screen and (max-width: 600px) {
-       .alla {
+       /* .alla { 
      
            font-size:9px;
        }
@@ -71,7 +74,7 @@ h4 {
        .music1 {
            display:block;
        }
-    }
+    }*/
        
 
 
