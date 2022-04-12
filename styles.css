@@ -3,6 +3,7 @@
  .cell {
      text-align: center;
      align-items: center;
+     padding-left: 50px;
  }
  
  /* .cell medium-2 small-12 {
