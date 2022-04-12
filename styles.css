@@ -1,81 +1,79 @@
 
 
  .grid-x grid-x grid-padding-x large-up-6 large-up-6{
-     text-align: center;
-     align-items: center;
-     padding-left: 50px;
- }
- 
- .custom-footer{
-     background-color: #000;
-    
- }
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.custom-footer{
+    background-color: #000;
+   
+}
 .menu li a{ 
-    color: #B06865;
-  
-    
+   color: #B06865;
+ 
+   
 }
 p { 
-    font-size:22px;
+   font-size:22px;
 }
 .navbar{ 
-    font-size: 10px;
-    background-color:#B06865;
+   font-size: 10px;
+   background-color:#B06865;
 }
- 
+
 .fi-list { 
-    color: black;
-    font-family: 'Lato', sans-serif;
+   color: black;
+   font-family: 'Lato', sans-serif;
 }
 
 .header {
-    background-color: black;
-    color: #B06865;
-    text-align: center;
+   background-color: black;
+   color: #B06865;
+   text-align: center;
 
 }
 
 .serif {
-    font-family: 'Noto Serif', serif;
-    font-size: 40px
+   font-family: 'Noto Serif', serif;
+   font-size: 40px
 }
 
 .italic {
-    font-style: italic;
+   font-style: italic;
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
-    border-bottom: 5px solid #B06865;
+   font-family: 'Lato', sans-serif;
+   border-bottom: 5px solid #B06865;
 }
 
 .news {
-    align-items: center;
+   align-items: center;
 }
 .video {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-  }
- 
+   aspect-ratio: 16 / 9;
+   width: 100%;
+ }
+
 
 h4 {
-    text-align: center;
-    font-style: italic;
+   text-align: center;
+   font-style: italic;
 }
 
 .foot {
-    background-color: #B06865;
-    font-family: 'Lato', sans-serif;
-    font-style: italic;
+   background-color: #B06865;
+   font-family: 'Lato', sans-serif;
+   font-style: italic;
 }
 
 
 
- @media only screen and (max-width: 600px) {
- 
+@media only screen and (max-width: 600px) {
 
 
-    }
-       
 
+   }
 
