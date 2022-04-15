@@ -22,6 +22,9 @@ p {
    font-size: 10px;
    background-color:#B06865;
 }
+h5 {
+   text-align: center;
+}
 
 .fi-list { 
    color: black;
