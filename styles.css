@@ -1,5 +1,16 @@
 
 
+
+.vertical {
+text-align: center;
+}
+
+.footer-image {
+   margin: 0 auto;
+   width: 100%;
+}
+
+
  .grid-x grid-x grid-padding-x large-up-6 large-up-6{
     text-align: center;
     align-items: center;
