@@ -74,6 +74,9 @@ h4 {
    text-align: center;
    font-style: italic;
 }
+h6 { 
+   text-align:center;
+}
 
 .foot {
    background-color: #B06865;
