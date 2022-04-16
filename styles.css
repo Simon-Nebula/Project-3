@@ -86,12 +86,15 @@ h6 {
 
 
 
+
 @media only screen and (max-width: 600px) {
 
    .cell {
       align-items:center;
       text-align:center;
    }
-
+.discodesc{
+   text-align:center;
+}
    }
 
